@@ -3,7 +3,7 @@
     <p @click="back()">
       <img src="@/assets/images/back.png" alt>返回
     </p>
-    <p style="font-size: .48rem;">商城</p>
+    <p style="font-size: .48rem;">个人中心</p>
     <p>
       <img src="@/assets/images/more.png" alt>
     </p>
@@ -19,6 +19,5 @@ export default {
   }
 }
 </script>
-
 <style>
 </style>

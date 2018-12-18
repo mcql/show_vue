@@ -829,7 +829,8 @@ table {
 .bigpic {
   width: 100%;
   height: 9.866667rem;
-  position: relative;
+  background: url('images/prodpictest.png') no-repeat center center;
+  background-size: contain;
 }
 
 .bigpic>img {
@@ -971,7 +972,7 @@ table {
 
 .canshunum li p:first-child,
 .canshunum li p:nth-child(3) {
-  width: .8rem;
+  width: 1.2rem;
   margin-left: .773333rem;
   font-size: .266667rem;
   color: #a6a6a6;
@@ -1181,8 +1182,13 @@ table {
 }
 
 .ddxq {
+  width: 100%;
+  height: 100%;
   background-color: #f5f5f5;
   font-size: .426667rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .ddxqlist {
@@ -1193,6 +1199,8 @@ table {
 }
 
 .mine {
+  width: 100%;
+  height: 100%;
   font-size: .426667rem;
   display: flex;
   justify-content: flex-start;
@@ -1317,7 +1325,7 @@ table {
 }
 
 .cardinput h5 {
-  font-size: .506667rem;
+  font-size: .456667rem;
   margin-left: .893333rem;
   font-weight: normal;
   color: #3b3b3a;
@@ -1615,7 +1623,7 @@ table {
   margin-top: .6rem;
 }
 .detailrenwu{
-  height: 0;
+  height: 0px;
   overflow: hidden;
 }
 .normalheight{
@@ -1628,4 +1636,22 @@ table {
 .login_regist{
   width: 100%;
   height: 100%;
+}
+.allmine {
+  height: 4.533333rem;
+}
+.allmine .swiper-slide {
+  width: 90%;
+  height: 2.986667rem;
+  background: url(images/doing_blck_banner.png) no-repeat center center;
+  background-size: 100% 100%;
+  padding: 0.4rem;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+.allmine .swiper-container {
+  margin-top: 1.06667rem;
+}
+.add_bank_btn,.addcard{
+  cursor: pointer;
 }

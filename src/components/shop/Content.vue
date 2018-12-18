@@ -7,11 +7,13 @@
     <div class="shoplists">
       <ul>
         <li v-for="item in lists">
-          <img :src=item.img alt>
-          <div class="shop_ioc">{{item.type}}</div>
-          <p class="shoptit">{{item.title}}</p>
-          <p class="shoprealprice">代理价：￥{{item.price}}</p>
-          <p class="shopoldprice">原 价：￥{{item.oldprice}}</p>
+            <router-link to="/Prodetail">
+              <img :src=item.img alt>
+              <div class="shop_ioc">{{item.type}}</div>
+              <p class="shoptit">{{item.title}}</p>
+              <p class="shoprealprice">代理价：￥{{item.price}}</p>
+              <p class="shopoldprice">原 价：￥{{item.oldprice}}</p>
+            </router-link>
         </li>
       </ul>
     </div>
@@ -85,9 +87,9 @@ export default {
           oldprice: '600'
         }
       ]
-    };
+    }
   }
-};
+}
 </script>
 
 <style>

@@ -26,7 +26,7 @@ export default {
       swiper
     }
   }
-};
+}
 </script>
 
 <style>

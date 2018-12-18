@@ -21,7 +21,7 @@ export default {
   },
   computed: {
     login_to_regist() {
-      return this.$store.state.login_to_regist;
+      return this.$store.state.login_to_regist
     }
   }
 }

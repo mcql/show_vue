@@ -27,7 +27,7 @@ export default {
     return {
       username: "",
       userpwd: ""
-    };
+    }
   },
   methods: {
     toRegist() {
@@ -38,7 +38,7 @@ export default {
       this.$router.push('/Index')
     }
   }
-};
+}
 </script>
 
 <style>

@@ -6,7 +6,8 @@ Vue.use(Vuex)
 const state = {
   login_to_regist: false,
   leftShow: false,
-  showDialog: false
+  showDialog: false,
+  add:false
 }
 
 const mutations = {
@@ -18,6 +19,9 @@ const mutations = {
   },
   changeDialog(state, status){
     state.showDialog = status
+  },
+  changeAdd(state, status){
+    state.add = status
   }
 }
 
