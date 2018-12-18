@@ -15,9 +15,9 @@
       </li>
       <li>
         <img src="@/assets/images/mine_zhangdan.png" alt>
-        <router-link to='/zhangdan'>
+        <!-- <router-link to='/zhangdan'> -->
           <p>账单记录</p>
-        </router-link>
+        <!-- </router-link> -->
       </li>
       <li>
         <img src="@/assets/images/mine_info.png" alt>
